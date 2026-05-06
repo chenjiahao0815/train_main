@@ -6,7 +6,7 @@ import shutil
 class SplitDataset:
     def __init__(self):
         # ============ 设置区域 ============
-        self.base_dir = "/mnt/c/Users/OVERPASS/Desktop/model_wire/Gas Tube- Flexible Hose.yolov8"
+        self.base_dir = r"D:\codeArea\work\ros_ws(1)\train_main\Rope Detection.yolov8"
         self.val_ratio = 0.2  # 20% 作为验证集
         self.random_seed = 42  # 固定随机种子，保证可复现
         # ====================================

@@ -4,7 +4,8 @@ import os
 class DatasetRenamer:
     def __init__(self):
         # ============ 在这里设置 ============
-        self.base_dir = "/mnt/c/Users/OVERPASS/Desktop/model_wire/wire model nano.v11-2025-03-18-nano-dataset.yolov8/train"
+        self.base_dir = r"D:\codeArea\work\ros_ws(1)\train_main\high-voltage cable.yolov8\train"
+        # self.base_dir = "/mnt/c/Users/OVERPASS/Desktop/model_wire/wire model nano.v11-2025-03-18-nano-dataset.yolov8/train"
         self.prefix = "G"  # 前缀，可以改成 B、C、Wire 等任何你想要的
         self.start_num = 1  # 起始编号
         self.num_digits = 4  # 编号位数，4位就是 A0001, A0002...
