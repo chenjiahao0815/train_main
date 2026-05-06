@@ -1,5 +1,5 @@
-train: D:\codeArea\work\ros_ws(1)\train_main\model_train/train/images
-val: D:\codeArea\work\ros_ws(1)\train_main\model_train/valid/images
+train: /root/yolo_train/train_main/model_train/train/images
+val: /root/yolo_train/train_main/model_train/valid/images
 
 nc: 3
 names: ['wire', 'pipe', 'rope']
