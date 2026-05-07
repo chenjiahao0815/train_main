@@ -1,6 +1,6 @@
 nc: 3
 end2end: True
-reg_max: 1
+reg_max: 16
 scales:
   n: [0.5, 0.25, 1024]
   s: [0.50, 0.50, 1024]

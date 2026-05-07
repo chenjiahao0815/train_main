@@ -8,7 +8,7 @@ mode: train
 epochs: 200
 patience: 25
 batch: 8
-imgsz: 1280
+imgsz: 640
 save: true
 save_period: -1
 cache: false

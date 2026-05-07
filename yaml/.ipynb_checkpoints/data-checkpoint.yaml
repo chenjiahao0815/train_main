@@ -1,0 +1,5 @@
+train: /root/yolo_train/train_main/model_train/train/images
+val: /root/yolo_train/train_main/model_train/valid/images
+
+nc: 3
+names: ['wire', 'pipe', 'rope']
